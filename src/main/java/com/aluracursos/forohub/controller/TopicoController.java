@@ -16,8 +16,6 @@ import java.util.List;
 public class TopicoController {
 	@Autowired
 	private GestorTopicos gestorTopicos;
-	@Autowired
-	private TopicoRepository repository;
 
 	@PostMapping
 	@Transactional
